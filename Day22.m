@@ -1,6 +1,6 @@
 function Day22
-clear all;
-close all;
+%clear all;
+%close all;
 load('cells.mat');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -66,7 +66,7 @@ mainPlot.XAxis.Visible = 'off'; % hide the x-axis line, because we only want to 
 mainPlot.YAxis.Visible = 'off'; % hide the y-axis line, because we only want to keep the y-axis label
 mainPlot.XLabel.Visible = 'on'; % make the x-axis label visible, while the x-axis line itself, has been turned off;
 mainPlot.YLabel.Visible = 'on'; % make the y-axis label visible, while the y-axis line itself, has been turned off;
-mainPlot.Title.String = 'Time = 10.0 days. Brian MRI slices alon Z-direction, Rat W09. No raditation treatment'; % set the title of the figure
+mainPlot.Title.String = 'Time = 22.0 days. Brian MRI slices alon Z-direction, Rat W09. No raditation treatment'; % set the title of the figure
 mainPlot.XLabel.FontSize = mainPlotAxisFontSize; % set the font size for the x-axis in mainPlot
 mainPlot.YLabel.FontSize = mainPlotAxisFontSize; % set the font size for the y-axis in mainPlot
 mainPlot.Title.FontSize = mainPlotTitleFontSize; % set the font size for the title in mainPlot

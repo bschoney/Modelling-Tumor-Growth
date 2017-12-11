@@ -1,6 +1,6 @@
 function Day10
-%clear all;
-%close all;
+clear all;
+close all;
 load('cells.mat');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
