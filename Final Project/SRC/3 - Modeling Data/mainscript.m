@@ -47,3 +47,5 @@ xlabel('Time [days]')
 ylabel('Tumor Cell Count')
 legend({'Experimental Data','Gompertzian Fit'}, 'location','northwest');
 title('Gompertzian Fit to Rat''s Brain Tumor Growth');
+
+saveas(gcf,'GrowthModel.png');
