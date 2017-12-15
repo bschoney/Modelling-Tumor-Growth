@@ -53,3 +53,5 @@ saveas(gcf,'GrowthModel.png');
     for i = 10:2:22
        run(['Day',num2str(i),'.m']); 
     end    
+run('functionone');
+run('functiontwo');
